@@ -1,4 +1,4 @@
-# Домашнее задание к лекции «Синтаксические конструкции»
+# Домашнее задание к лекции «Синтаксические конструкции» [![Build status](https://ci.appveyor.com/api/projects/status/dhk4kbij17s9jfth/branch/master?svg=true)](https://ci.appveyor.com/project/CarolineFell/syntactic-constructions/branch/master)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
