@@ -1,11 +1,6 @@
-// Ваши коллеги разработали форму, которая принимает от пользователя количество покупаемых единиц товара, 
-// вас же попросили написать функцию-преобразователь, которая возвращает число - если всё ок, и генерирует 
-// ошибку - если ввод не является числом в десятичной системе счисления.
-
 export default function returnNumber(number) {
-    
-    if (Number.isNaN(parseInt(number, 10)) || parseInt(number, 10) === 0) {
-        throw new Error(`${number} не является числом`);
-    }
-    return parseInt(number, 10);
+  if (Number.isNaN(parseInt(number, 10)) || parseInt(number, 10) === 0) {
+    throw new Error(`${number} не является числом`);
+  }
+  return parseInt(number, 10);
 }
