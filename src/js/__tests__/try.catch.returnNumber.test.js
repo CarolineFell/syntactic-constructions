@@ -1,7 +1,7 @@
-import returnNumber from '../app';
+import returnNumber from '../try.catch.returnNumber';
 
 test('Should be 762', () => {
-  expect(() => returnNumber('0p85')).toThrowError('0p85 не является числом');
+  expect(() => returnNumber('a762')).toThrowError('a762 не является числом');
 });
 
 test('Should be a number', () => {

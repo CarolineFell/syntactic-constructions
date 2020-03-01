@@ -1,4 +1,4 @@
-import findBy from '../app.closures';
+import findBy from '../closures.findBy';
 
 test('Should be name: "урон"', () => {
   const finder = findBy('name', 'урон');
